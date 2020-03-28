@@ -2,15 +2,17 @@
 
 https://ackudryavcev.github.io/news_explorer_frontend.github.io/
 
-* Дипломный проект Яндекс Практикум. Инфраструктура и Git
+* Дипломный проект Яндекс Практикум. Инфраструктура и Git. Верстка.
 
-* «Вебпак» собирает проект: кроме кода в сборку должны попасть SVG-изображения и шрифты.
+* «Вебпак» собирает проект. npm run build
 
-* Проект выложен на Github Pages.
+* npm run dev запускает проект в режиме разработки с хот-релоудом
+
+* Проект выложен на Github Pages. Сcылка в начале файла.
 
 * Устранена проблема с нижними подчеркиваниями при публикации на github
 
-* Продакшн-бандл должен деплоиться на Github Pages скриптом «Вебпака»
+* Продакшн-бандл должен деплоиться на Github Pages скриптом «Вебпака» npm run deploy
 
 * переменные окружения запрещены, проект собирается и запускается на любой настольной OC после установки необходимых npm-зависимостей.
 
@@ -40,46 +42,26 @@ https://ackudryavcev.github.io/news_explorer_frontend.github.io/
 
 * Установлены и настроены все плагины, вот их полный список:
 
-babel-loader,
----
-babel-cli
----
-babel-core
----
-babel-preset-env
----
-core-js
----
-mini-css-extract-plugin
----
-optimize-css-assets-webpack-plugin
----
-css-loader
----
-html-webpack-plugin
----
-postcss-loader
----
-autoprefixer
----
-cssnano
----
-gh-pages
----
-webpack-md5-hash
----
-webpack
----
-webpack-cli
----
-webpack-dev-server
----
-path
----
-file-loader
----
-image-webpack-loader
----
+* -babel-loader,
+* -babel-cli
+* -babel-core
+* -babel-preset-env
+* -core-js
+* -mini-css-extract-plugin
+* -optimize-css-assets-webpack-plugin
+* -css-loader
+* -html-webpack-plugin
+* -postcss-loader
+* -autoprefixer
+* -cssnano
+* -gh-pages
+* -webpack-md5-hash
+* -webpack
+* -webpack-cli
+* -webpack-dev-server
+* -path
+* -file-loader
+* -image-webpack-loader
 
 * Проект адаптирован под различные разрешения экрана
 
