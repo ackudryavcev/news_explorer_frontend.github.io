@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,239 +9,233 @@
     <meta name="author" content="Aleksey Kudryavtcev">
     <title>Saved Articles</title>
     <link rel="icon" type="images/png" href="/src/images/favicon.png">
-    <link rel="stylesheet" href="style.1e90ca32f4e0c43c72f2.css?0bbc8bb1577d1df16b49">
+    <link rel="stylesheet" href="style.9a553ce2a5b11abc8716.css?b692260fa0109c195d1a">
 </head>
+
 <body>
-  <!-- Шапка -->
-  <header class="header-saved-articles">
-    <nav class="header__navigation-black header__navigation-mobile">
-      <a href="./index.html" class="header__logo-black header__logo-mobile-black">
+
+    <header class="header-saved-articles">
+        <nav class="header__navigation-black header__navigation-mobile">
+            <a href="./index.html" class="header__logo-black header__logo-mobile-black">
         NewsExplorer
       </a>
-      <a href="./index.html" class="header__main-black">
+            <ul class="header__main-ul">
+                <li class="header__main-black">
+                    <a href="./index.html" class="header__main-black-link">
         Главная
       </a>
-      <a href="./saved-articles.html" class="header__saved-articles-black">
+                </li>
+                <li class="header__saved-articles-black">
+                    <a href="./saved-articles.html" class="header__main-black-link">
         Сохранённые статьи
       </a>
-      <button class="header__auth-black header__auth-black_text">
+                </li>
+                <li>
+                    <button class="header__auth-black header__auth-black_text">
         Грета
         <span class="header__auth-black-icon">
         </span>
       </button>
-        <img class="header__menu-mobile" src="./images/navigation__menu-mobile-black.png" alt="меню">
-    </nav>
+                </li>
+            </ul>
+            <img class="header__menu-mobile header__menu-mobile-article" src="./images/navigation__menu-mobile-black.png" alt="меню">
+        </nav>
 
-    <!-- Шапка, информация - сколько сохранено статей, ключевые слова(320-1440) -->
-    <section class="header__info-saved-articles">
-      <h2 class="header__title-saved-articles">
-        Сохранённые статьи
-      </h2>
-      <p class="header__text-saved-articles">
-        Грета, у вас 5 сохранённых статей
-      </p>
-      <p class="header__keywords-saved-articles">
-        По ключевым словам: <b>Природа, Тайга</b> и <b>2 другим</b>
-      </p>
-    </section>
-  </header>
+        <section class="header__info-saved-articles">
+            <h2 class="header__title-saved-articles">
+                Сохранённые статьи
+            </h2>
+            <p class="header__text-saved-articles">
+                Грета, у вас 5 сохранённых статей
+            </p>
+            <p class="header__keywords-saved-articles">
+                По ключевым словам: <b>Природа, Тайга</b> и <b>2 другим</b>
+            </p>
+        </section>
+    </header>
 
-  <!-- Шапка, попап-меню(320-768) -->
-  <div class="popup__menu">
-    <div class="popup__menu-container">
-      <div class="popup__menu-upper">
-        <a href="./index.html" class="popup__menu-logo">
+    <div class="popup__menu">
+        <div class="popup__menu-container">
+            <div class="popup__menu-upper">
+                <a href="./index.html" class="popup__menu-logo">
           NewsExplorer
         </a>
-        <img src="./images/close.png" alt="" class="popup__menu-close">
-      </div>
-      <a href="./index.html" class="popup__menu-main">
+                <img src="./images/close.png" alt="" class="popup__menu-close">
+            </div>
+            <a href="./index.html" class="popup__menu-main">
         Главная
       </a>
-      <button class="popup__menu-auth popup__menu-auth_text">
+            <button class="popup__menu-auth popup__menu-auth_text">
         Авторизоваться
       </button>
-      <a href="./saved-articles.html" class="popup__saved-articles">
+            <a href="./saved-articles.html" class="popup__saved-articles">
         Сохранённые статьи
       </a>
-      <button class="popup__logged-in popup__logged-in_text">
+            <button class="popup__logged-in popup__logged-in_text">
         Грета
         <img class="popup__logged-in-icon" src="./images/Union.png" alt="">
       </button>
-    </div>
-  </div>
-
-  <!-- Основная информация, все сохранённые статьи -->
-  <main class="saved-articles">
-    <div class="saved-articles__container">
-      <article class="saved-articles__card saved-articles__dzen">
-        <div class="saved-articles__upper-container">
-          <div class="saved-articles__keyword">
-            <p class="saved-articles__keyword-text">
-              Природа
-            </p>
-          </div>
-          <div class="saved-articles__remove">
-            <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
-            <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
-            <div class="saved-articles__warning">
-              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
-            </div>
-          </div>
         </div>
-        <time class="saved-articles__time" datetime="2019-08-02">
+    </div>
+
+    <main class="saved-articles">
+        <div class="saved-articles__container">
+            <article class="saved-articles__card saved-articles__dzen">
+                <div class="saved-articles__upper-container">
+                    <div class="saved-articles__keyword">
+                        <p class="saved-articles__keyword-text">
+                            Природа
+                        </p>
+                    </div>
+                    <div class="saved-articles__remove">
+                        <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
+                        <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
+                        <div class="saved-articles__warning">
+                            <p class="saved-articles__warning-text">Убрать из сохранённых</p>
+                        </div>
+                    </div>
+                </div>
+                <time class="saved-articles__time" datetime="2019-08-02">
           2 августа, 2019
         </time>
-        <h3 class="saved-articles__title">
-          Национальное достояние – парки
-        </h3>
-        <p class="saved-articles__description" >
-          В 2016 году Америка отмечала важный юбилей:
-          сто лет назад здесь начала складываться система
-          национальных парков – охраняемых территорий, где
-          и сегодня каждый может приобщиться к природе.
-        </p>
-        <address class="saved-articles__author saved-articles__author-dzen" >
+                <h3 class="saved-articles__title">
+                    Национальное достояние – парки
+                </h3>
+                <p class="saved-articles__description">
+                    В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.
+                </p>
+                <address class="saved-articles__author saved-articles__author-dzen">
           ДЗЕН
         </address>
-      </article>
-      <article class="saved-articles__card saved-articles__afisha">
-        <div class="saved-articles__upper-container">
-          <div class="saved-articles__keyword">
-            <p class="saved-articles__keyword-text">
-              Природа
-            </p>
-          </div>
-          <div class="saved-articles__remove">
-            <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
-            <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
-            <div class="saved-articles__warning">
-              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
-            </div>
-          </div>
-        </div>
-        <time class="saved-articles__time" datetime="2019-08-02">
+            </article>
+            <article class="saved-articles__card saved-articles__afisha">
+                <div class="saved-articles__upper-container">
+                    <div class="saved-articles__keyword">
+                        <p class="saved-articles__keyword-text">
+                            Природа
+                        </p>
+                    </div>
+                    <div class="saved-articles__remove">
+                        <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
+                        <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
+                        <div class="saved-articles__warning">
+                            <p class="saved-articles__warning-text">Убрать из сохранённых</p>
+                        </div>
+                    </div>
+                </div>
+                <time class="saved-articles__time" datetime="2019-08-02">
           2 августа, 2019
         </time>
-        <h3 class="saved-articles__title">
-          Лесные огоньки: история одной фотографии
-        </h3>
-        <p class="saved-articles__description" >
-          Фотограф отвлеклась от освещения суровой политической
-          реальности Мексики, чтобы запечатлеть ускользающую
-          красоту одного из местных чудес природы.
-        </p>
-        <address class="saved-articles__author saved-articles__author-afisha" >
+                <h3 class="saved-articles__title">
+                    Лесные огоньки: история одной фотографии
+                </h3>
+                <p class="saved-articles__description">
+                    Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.
+                </p>
+                <address class="saved-articles__author saved-articles__author-afisha">
           Афиша
         </address>
-      </article>
-      <article class="saved-articles__card saved-articles__mediazone">
-        <div class="saved-articles__upper-container">
-          <div class="saved-articles__keyword">
-            <p class="saved-articles__keyword-text">
-              Тайга
-            </p>
-          </div>
-          <div class="saved-articles__remove">
-            <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
-            <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
-            <div class="saved-articles__warning">
-              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
-            </div>
-          </div>
-        </div>
-        <time class="saved-articles__time" datetime="2019-08-02">
+            </article>
+            <article class="saved-articles__card saved-articles__mediazone">
+                <div class="saved-articles__upper-container">
+                    <div class="saved-articles__keyword">
+                        <p class="saved-articles__keyword-text">
+                            Тайга
+                        </p>
+                    </div>
+                    <div class="saved-articles__remove">
+                        <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
+                        <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
+                        <div class="saved-articles__warning">
+                            <p class="saved-articles__warning-text">Убрать из сохранённых</p>
+                        </div>
+                    </div>
+                </div>
+                <time class="saved-articles__time" datetime="2019-08-02">
           2 августа, 2019
         </time>
-        <h3 class="saved-articles__title">
-          «Первозданная тайга»: новый фотопроект Игоря Шпиленка
-        </h3>
-        <p class="saved-articles__description">
-          Знаменитый фотограф снимает первозданные леса России,
-          чтобы рассказать о необходимости их сохранения. В этот
-          раз он отправился в Двинско-Пинежскую тайгу, где...
-        </p>
-        <address class="saved-articles__author saved-articles__author-mediazone" >
+                <h3 class="saved-articles__title">
+                    «Первозданная тайга»: новый фотопроект Игоря Шпиленка
+                </h3>
+                <p class="saved-articles__description">
+                    Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...
+                </p>
+                <address class="saved-articles__author saved-articles__author-mediazone">
           Медиазона
         </address>
-      </article>
-      <article class="saved-articles__card saved-articles__dzen">
-        <div class="saved-articles__upper-container">
-          <div class="saved-articles__keyword">
-            <p class="saved-articles__keyword-text">
-              Парки
-            </p>
-          </div>
-          <div class="saved-articles__remove">
-            <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
-            <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
-            <div class="saved-articles__warning">
-              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
-            </div>
-          </div>
-        </div>
-        <time class="saved-articles__time" datetime="2019-08-02">
+            </article>
+            <article class="saved-articles__card saved-articles__dzen">
+                <div class="saved-articles__upper-container">
+                    <div class="saved-articles__keyword">
+                        <p class="saved-articles__keyword-text">
+                            Парки
+                        </p>
+                    </div>
+                    <div class="saved-articles__remove">
+                        <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
+                        <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
+                        <div class="saved-articles__warning">
+                            <p class="saved-articles__warning-text">Убрать из сохранённых</p>
+                        </div>
+                    </div>
+                </div>
+                <time class="saved-articles__time" datetime="2019-08-02">
           2 августа, 2019
         </time>
-        <h3 class="saved-articles__title">
-          Национальное достояние – парки
-        </h3>
-        <p class="saved-articles__description" >
-          В 2016 году Америка отмечала важный юбилей:
-          сто лет назад здесь начала складываться система
-          национальных парков – охраняемых территорий, где
-          и сегодня каждый может приобщиться к природе.
-        </p>
-        <address class="saved-articles__author saved-articles__author-dzen" >
+                <h3 class="saved-articles__title">
+                    Национальное достояние – парки
+                </h3>
+                <p class="saved-articles__description">
+                    В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.
+                </p>
+                <address class="saved-articles__author saved-articles__author-dzen">
           ДЗЕН
         </address>
-      </article>
-      <article class="saved-articles__card saved-articles__afisha">
-        <div class="saved-articles__upper-container">
-          <div class="saved-articles__keyword">
-            <p class="saved-articles__keyword-text">
-              Фотография
-            </p>
-          </div>
-          <div class="saved-articles__remove">
-            <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
-            <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
-            <div class="saved-articles__warning">
-              <p class="saved-articles__warning-text">Убрать из сохранённых</p>
-            </div>
-          </div>
-        </div>
-        <time class="saved-articles__time" datetime="2019-08-02">
+            </article>
+            <article class="saved-articles__card saved-articles__afisha">
+                <div class="saved-articles__upper-container">
+                    <div class="saved-articles__keyword">
+                        <p class="saved-articles__keyword-text">
+                            Фотография
+                        </p>
+                    </div>
+                    <div class="saved-articles__remove">
+                        <img class="saved-articles__trash" src="./images/trash-grey.png" alt="корзина">
+                        <img class="saved-articles__trash-hover" src="./images/trash-black.png" alt="корзина">
+                        <div class="saved-articles__warning">
+                            <p class="saved-articles__warning-text">Убрать из сохранённых</p>
+                        </div>
+                    </div>
+                </div>
+                <time class="saved-articles__time" datetime="2019-08-02">
           2 августа, 2019
         </time>
-        <h3 class="saved-articles__title">
-          Лесные огоньки: история одной фотографии
-        </h3>
-        <p class="saved-articles__description" >
-          Фотограф отвлеклась от освещения суровой политической
-          реальности Мексики, чтобы запечатлеть ускользающую
-          красоту одного из местных чудес природы.
-        </p>
-        <address class="saved-articles__author saved-articles__author-afisha" >
+                <h3 class="saved-articles__title">
+                    Лесные огоньки: история одной фотографии
+                </h3>
+                <p class="saved-articles__description">
+                    Фотограф отвлеклась от освещения суровой политической реальности Мексики, чтобы запечатлеть ускользающую красоту одного из местных чудес природы.
+                </p>
+                <address class="saved-articles__author saved-articles__author-afisha">
           Афиша
         </address>
-      </article>
-    </div>
-  </main>
+            </article>
+        </div>
+    </main>
 
-  <!-- Подвал -->
-  <footer class="footer">
-    <p class="footer__author">&#169; 2020 ackudryavcev.tk</p>
-    <a class="footer__main" href="./index.html">Главная</a>
-    <a class="footer__ya-praktikum" href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a>
-    <a class="footer__github-url" href="https://github.com/" target="_blank">
+    <footer class="footer">
+        <p class="footer__author">&#169; 2020 ackudryavcev.tk</p>
+        <a class="footer__main" href="./index.html">Главная</a>
+        <a class="footer__ya-praktikum" href="https://praktikum.yandex.ru/" target="_blank">Яндекс.Практикум</a>
+        <a class="footer__github-url" href="https://github.com/" target="_blank">
       <img class="footer__github-img" src="./images/github.png" alt="github">
     </a>
-    <a class="footer__linkedin-url" href="https://www.linkedin.com/" target="_blank">
+        <a class="footer__linkedin-url" href="https://www.linkedin.com/" target="_blank">
       <img class="footer__linkedin-img" src="./images/linkedin.png" alt="linkedin">
     </a>
-  </footer>
+    </footer>
 
-  <script src="main.3410d807f706dd90c1ad.js?0bbc8bb1577d1df16b49"></script>
+    <script src="main.d2b1142a37c18bd81bc0.js?b692260fa0109c195d1a"></script>
 </body>
+
 </html>
