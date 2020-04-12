@@ -10,7 +10,6 @@
 @import url('../vendor/fonts.css');
 @media (max-width: 767px) {
     body {
-        width: 320px;
         margin: 0 auto;
         background: #fff;
         font-family: "Roboto", sans-serif;
@@ -25,7 +24,6 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
     body {
-        width: 768px;
         margin: 0 auto;
         background: #fff;
         font-family: "Roboto", sans-serif;

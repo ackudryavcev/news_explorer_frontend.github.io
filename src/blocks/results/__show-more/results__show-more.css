@@ -4,7 +4,8 @@
     height: 56px;
     margin-top: 5px;
     margin-bottom: 32px;
-    margin-left: 16px;
+    display: block;
+    margin: 5px auto 52px;
     background: #fff;
     border-radius: 80px;
     border: none;
@@ -28,9 +29,7 @@
   .results__show-more {
     width: 240px;
     height: 56px;
-    margin-top: 32px;
-    margin-bottom: 40px;
-    margin-left: 272px;
+    margin: 32px 35% 40px;
     background: #fff;
     border-radius: 80px;
     border: none;

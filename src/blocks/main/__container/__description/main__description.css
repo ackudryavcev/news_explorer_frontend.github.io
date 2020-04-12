@@ -1,6 +1,6 @@
 @media (max-width: 767px) {
   .main__description {
-    width: 288px;
+    width: 100%;
 
     font-family: Roboto, arial, sans-serif;
     font-style: normal;

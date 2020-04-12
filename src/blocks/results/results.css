@@ -21,6 +21,8 @@
   .results {
     /* display: none; */
     background: #f5f6f7;
+    border: 1px solid #f5f6f7;
+    padding: 1px;
   }
 }
 
