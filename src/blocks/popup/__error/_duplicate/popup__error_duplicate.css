@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+  .popup__error_duplicate {
+    position: absolute;
+    left: 18%;
+    top: 44%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    /* visibility: hidden; */
+
+    color: #ff0000;
+  }
+}
+
+@media (min-width: 768px) {
+  .popup__error_duplicate {
+    position: absolute;
+    left: 21%;
+    top: 66%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    /* visibility: hidden; */
+
+    color: #ff0000;
+  }
+}
